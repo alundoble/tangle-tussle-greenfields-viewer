@@ -1,0 +1,165 @@
+{
+	"buriedProps": [
+		{
+			"file": "fossil.svg",
+			"size": 94.0,
+			"x": 2397.0,
+			"y": 1140.0
+		},
+		{
+			"file": "buried-wheel.svg",
+			"size": 80.0,
+			"x": 3702.0,
+			"y": 771.0
+		},
+		{
+			"file": "helmet.svg",
+			"size": 75.0,
+			"x": 4977.0,
+			"y": 1290.0
+		},
+		{
+			"file": "fossil.svg",
+			"size": 84.0,
+			"x": 1785.0,
+			"y": 1620.0
+		}
+	],
+	"chunks": 207,
+	"fighters": [
+		{
+			"name": "Pip",
+			"team": "blue",
+			"x": 360.0,
+			"y": 1012.5
+		},
+		{
+			"name": "Rook",
+			"team": "red",
+			"x": 1140.0,
+			"y": 1139.5
+		},
+		{
+			"name": "Bolt",
+			"team": "blue",
+			"x": 1845.0,
+			"y": 947.5
+		},
+		{
+			"name": "Patch",
+			"team": "red",
+			"x": 2625.0,
+			"y": 984.5
+		},
+		{
+			"name": "Moss",
+			"team": "blue",
+			"x": 3390.0,
+			"y": 683.5
+		},
+		{
+			"name": "Nova",
+			"team": "red",
+			"x": 4185.0,
+			"y": 1466.5
+		},
+		{
+			"name": "Juno",
+			"team": "blue",
+			"x": 4920.0,
+			"y": 848.5
+		},
+		{
+			"name": "Fizz",
+			"team": "red",
+			"x": 5385.0,
+			"y": 1266.5
+		}
+	],
+	"generatedUtc": "2026-10-27T22:12:32",
+	"name": "Greenfields",
+	"renderNote": "Native 1x destructible near-LOD atlases exported from the playable Godot scene. Background reinterpreted as a continuous panorama for inspection. No game physics simulated.",
+	"seaLevel": 1972.0,
+	"surfaceProps": [
+		{
+			"file": "warning-sign.svg",
+			"h": 90.0,
+			"w": 64.0,
+			"x": 735.0,
+			"y": 704.0
+		},
+		{
+			"file": "buried-wheel.svg",
+			"h": 68.0,
+			"w": 68.0,
+			"x": 2100.0,
+			"y": 808.0
+		},
+		{
+			"file": "crate.svg",
+			"h": 72.0,
+			"w": 76.0,
+			"x": 3060.0,
+			"y": 1184.0
+		},
+		{
+			"file": "warning-sign.svg",
+			"h": 87.0,
+			"w": 63.0,
+			"x": 4635.0,
+			"y": 936.0
+		},
+		{
+			"file": "helmet.svg",
+			"h": 54.0,
+			"w": 68.0,
+			"x": 5550.0,
+			"y": 1144.0
+		},
+		{
+			"file": "oak-stump.svg",
+			"h": 90.0,
+			"w": 115.0,
+			"x": 1425.0,
+			"y": 1080.0
+		},
+		{
+			"file": "oak-stump.svg",
+			"h": 81.0,
+			"w": 105.0,
+			"x": 3780.0,
+			"y": 312.0
+		},
+		{
+			"file": "fern-clump.svg",
+			"h": 70.0,
+			"w": 98.0,
+			"x": 3000.0,
+			"y": 1072.0
+		},
+		{
+			"file": "fern-clump.svg",
+			"h": 63.0,
+			"w": 86.0,
+			"x": 4290.0,
+			"y": 936.0
+		},
+		{
+			"file": "mossy-stones.svg",
+			"h": 68.0,
+			"w": 83.0,
+			"x": 930.0,
+			"y": 1020.0
+		},
+		{
+			"file": "mossy-stones.svg",
+			"h": 68.0,
+			"w": 83.0,
+			"x": 4650.0,
+			"y": 916.0
+		}
+	],
+	"version": "V1",
+	"worldHeight": 2160,
+	"worldWidth": 5760
+}

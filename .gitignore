@@ -1,0 +1,11 @@
+node_modules/
+.netlify/
+compose-map.js
+preview-server.js
+mobile-smoke.png
+mobile-cdp-smoke.png
+mobile-cdp-check.js
+assets/terrain-actual-1x.png
+assets/caves-mask.png
+assets/godot-overview.png
+*.log

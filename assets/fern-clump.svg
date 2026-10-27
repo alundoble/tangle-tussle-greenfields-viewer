@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="230" viewBox="0 0 150 115"><defs>
+<linearGradient id="bark" x1="0" y1="0" x2=".85" y2=".9"><stop stop-color="#a78d6a"/><stop offset=".45" stop-color="#78664f"/><stop offset="1" stop-color="#424940"/></linearGradient>
+<linearGradient id="wood" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#d3b890"/><stop offset=".63" stop-color="#b1946c"/><stop offset="1" stop-color="#806b53"/></linearGradient>
+<linearGradient id="leaf" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#a9b382"/><stop offset=".45" stop-color="#697956"/><stop offset="1" stop-color="#3d5749"/></linearGradient>
+<linearGradient id="stone" x1=".1" y1="0" x2=".9" y2="1"><stop stop-color="#aaa897"/><stop offset=".55" stop-color="#7e8577"/><stop offset="1" stop-color="#4a5e56"/></linearGradient>
+</defs><path d="M9 99 Q47 87 70 91 Q98 87 136 102 Q123 110 91 106 Q54 107 9 99Z" fill="#475b47" opacity=".75"/>
+<path d="M70 103 Q65 69 29 22 M70 103 Q72 56 105 14 M70 103 Q93 79 142 59 M69 103 Q45 72 8 68 M70 103 Q78 72 77 30" fill="none" stroke="#475c43" stroke-width="3.4" stroke-linecap="round"/>
+<path d="M34 30 Q10 16 12 30 Q14 42 38 45 M42 44 Q13 35 15 50 Q24 57 49 56 M52 58 Q30 53 32 70 Q41 74 59 72 M32 28 Q43 11 51 16 Q57 27 44 40 M45 45 Q60 28 64 38 L57 59 M52 61 Q69 47 71 59 L63 77" fill="url(#leaf)" stroke="#4b644e" stroke-width="1.2"/>
+<path d="M101 23 Q113 5 123 14 Q123 32 96 38 M96 39 Q125 24 129 38 Q120 50 86 53 M89 54 Q114 45 111 62 Q102 67 78 70 M103 24 Q81 10 80 22 Q84 38 99 38 M97 41 Q78 32 74 45 Q79 55 91 56 M90 55 Q68 48 67 61 Q72 70 82 72" fill="url(#leaf)" stroke="#4b644e" stroke-width="1.2"/>
+<path d="M132 63 Q136 44 147 50 Q148 65 126 72 M119 73 Q138 66 141 79 Q136 87 107 85 M116 69 Q102 50 95 61 Q98 75 112 78 M98 80 Q87 65 78 78 Q85 87 106 91" fill="url(#leaf)" stroke="#4b644e" stroke-width="1.2"/>
+<path d="M14 69 Q0 57 3 69 Q10 80 30 82 M26 81 Q9 78 12 89 Q21 95 49 96 M27 69 Q31 52 40 59 Q42 72 46 82" fill="url(#leaf)" stroke="#4b644e" stroke-width="1"/>
+<path d="M72 37 Q62 20 68 12 Q79 14 82 40 M71 54 Q56 38 60 30 Q72 35 75 55 M76 55 Q85 37 93 41 Q89 54 77 66 M70 75 Q50 60 50 67 Q58 81 69 85 M78 82 Q96 69 99 78 Q94 91 80 92" fill="url(#leaf)" stroke="#4b644e" stroke-width="1.1"/>
+<path d="M24 24 L44 43 M109 20 L98 38 M139 59 L121 71 M25 70 L47 86" stroke="#c1c8a0" stroke-width="1" opacity=".48"/></svg>

@@ -1,0 +1,61 @@
+{
+  "name": "Memory Match",
+  "version": "Approved Concept V3 in Godot",
+  "worldWidth": 5760,
+  "worldHeight": 2160,
+  "seaLevel": 1972,
+  "fighters": [
+    {
+      "name": "Pip",
+      "x": 310,
+      "y": 760,
+      "team": "blue"
+    },
+    {
+      "name": "Rook",
+      "x": 860,
+      "y": 744,
+      "team": "red"
+    },
+    {
+      "name": "Bolt",
+      "x": 1450,
+      "y": 696,
+      "team": "blue"
+    },
+    {
+      "name": "Patch",
+      "x": 1810,
+      "y": 708,
+      "team": "red"
+    },
+    {
+      "name": "Moss",
+      "x": 2620,
+      "y": 936,
+      "team": "blue"
+    },
+    {
+      "name": "Nova",
+      "x": 3310,
+      "y": 1568,
+      "team": "red"
+    },
+    {
+      "name": "Juno",
+      "x": 3990,
+      "y": 844,
+      "team": "blue"
+    },
+    {
+      "name": "Fizz",
+      "x": 5300,
+      "y": 820,
+      "team": "red"
+    }
+  ],
+  "surfaceProps": [],
+  "buriedProps": [],
+  "generatedUtc": "2026-10-28T11:58:31.586Z",
+  "renderNote": "Actual approved image as native illustrated Godot terrain, destructible collision-backed texture; experimental working preview, not yet gameplay-approved"
+}

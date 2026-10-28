@@ -1,0 +1,61 @@
+{
+	"buriedProps": [],
+	"fighters": [
+		{
+			"name": "Pip",
+			"team": "blue",
+			"x": 205.0,
+			"y": 575.5
+		},
+		{
+			"name": "Rook",
+			"team": "red",
+			"x": 720.0,
+			"y": 528.5
+		},
+		{
+			"name": "Bolt",
+			"team": "blue",
+			"x": 1660.0,
+			"y": 767.5
+		},
+		{
+			"name": "Patch",
+			"team": "red",
+			"x": 2230.0,
+			"y": 1908.5
+		},
+		{
+			"name": "Moss",
+			"team": "blue",
+			"x": 2780.0,
+			"y": 1207.5
+		},
+		{
+			"name": "Nova",
+			"team": "red",
+			"x": 3810.0,
+			"y": 1027.5
+		},
+		{
+			"name": "Juno",
+			"team": "blue",
+			"x": 5050.0,
+			"y": 923.5
+		},
+		{
+			"name": "Fizz",
+			"team": "red",
+			"x": 5390.0,
+			"y": 919.5
+		}
+	],
+	"generatedUtc": "2026-10-28T13:24:49",
+	"name": "Memory Match",
+	"renderNote": "Real 5760x3240 Godot image-backed terrain with unified collision and visual silhouette: tree, cards, flowers, rocks and grass. Destructible impact masks.",
+	"seaLevel": 3052.0,
+	"surfaceProps": [],
+	"version": "Solid Silhouette V4",
+	"worldHeight": 3240,
+	"worldWidth": 5760
+}

@@ -18,3 +18,6 @@ fix-memory-v2-composer.cjs
 memory-match-v2/assets/terrain-actual-1x.png
 memory-match-v2/assets/caves-mask.png
 build-reference-v3-viewer.cjs
+
+compose-solid-v4.cjs
+fix-solid-v4-page.cjs

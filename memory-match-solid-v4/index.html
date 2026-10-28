@@ -12,29 +12,30 @@
 <body>
   <main class="shell">
     <header class="topbar">
-      <div class="brand"><div class="mark" aria-hidden="true">TT</div><div class="brandcopy"><strong>TANGLE TUSSLE</strong><span>ANIMATION LAB · MAP REVIEW</span></div></div>
-      <div class="pageheading"><h1>Memory Match <small>V4</small></h1><p>Unified solid terrain · 5,760 × 3,240</p></div>
+      <div class="brand"><div class="mark" aria-hidden="true">TT</div><div class="brandcopy"><strong>TANGLE TUSSLE</strong><span>MAP REVIEW</span></div></div>
+      <div class="pageheading"><h1>Memory Match <small>V4</small></h1><p>Solid silhouette audit | 5,760 x 3,240</p></div>
       <button class="icon-btn share" id="share" title="Share viewer" aria-label="Share viewer"><svg viewBox="0 0 24 24"><path d="M12 16V3m0 0L7 8m5-5l5 5M5 14v6h14v-6"/></svg></button>
     </header>
     <section class="stage" id="stage" aria-label="Interactive Memory Match battlefield map, pinch to zoom and drag to pan">
-      <div class="maplayer" id="maplayer"><img id="mapimg" src="assets/painted-solid-v4-map.webp" width="5760" height="3240" alt="Approved illustrated Memory Match battlefield reproduced in the real Godot terrain renderer" draggable="false"></div>
+      <div class="maplayer" id="maplayer"><img id="mapimg" src="assets/painted-solid-v4-map.webp" width="5760" height="3240" alt="Approved illustrated Memory Match battlefield reproduced in the real Godot terrain renderer" draggable="false"><img id="collisionOverlay" src="assets/destructible-outline.png" width="5760" height="3240" alt="" aria-hidden="true" draggable="false"></div>
       <div id="props" class="itemlayer" aria-hidden="true"></div>
       <div id="pins" class="pinlayer"></div>
-      <div class="stage-status"><span class="green-led"></span> LIVE SOURCE SNAPSHOT <span class="sep">·</span> 28 OCT 2026</div>
-      <div class="readout" id="readout">FIT MAP <span>·</span> 100%</div>
-      <div class="help-toast" id="helpToast"><span>☝</span><span><b>Pinch to zoom</b> · Drag to explore<br><small>Rotate your phone for a wider overview</small></span><button id="closeHelp" aria-label="Dismiss help">×</button></div>
+      <div class="stage-status"><span class="green-led"></span> COLLISION AUDIT <span class="sep">|</span> 28 OCT 2026</div>
+      <div class="readout" id="readout">FIT MAP 100%</div>
+      <div class="help-toast" id="helpToast"><span>i</span><span><b>Pinch to zoom</b> | Drag to explore<small>Tap OUTLINE to inspect solid terrain</small></span><button id="closeHelp" aria-label="Dismiss help">x</button></div>
       <div class="tooltip hidden" id="tooltip"></div>
     </section>
     <footer class="bottom">
-      <div class="legend"><span><i class="dot blue"></i> BLUE TEAM</span><span><i class="dot red"></i> CORAL TEAM</span><span class="legend-muted">STATIC REVIEW · NO GAMEPLAY</span></div>
+      <div class="legend"><span><i class="dot blue"></i> BLUE TEAM</span><span><i class="dot red"></i> CORAL TEAM</span><span class="legend-muted">STATIC REVIEW | NO GAMEPLAY</span></div>
       <div class="toolbar">
         <button id="zoomOut" title="Zoom out" aria-label="Zoom out"><span class="symbol">−</span></button>
         <button id="zoomIn" title="Zoom in" aria-label="Zoom in"><span class="symbol">+</span></button>
         <button id="fit" class="active" title="Fit whole map"><svg viewBox="0 0 24 24"><path d="M3 9V3h6M15 3h6v6M21 15v6h-6M9 21H3v-6"/></svg><span>FIT MAP</span></button>
         <button id="findPip" title="Find Pip"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 1v4m0 14v4M1 12h4m14 0h4"/></svg><span>FIND PIP</span></button>
         <button id="labels" class="active" title="Toggle fighter names"><svg viewBox="0 0 24 24"><path d="M5 5h14v14H5zM8 10h8M8 14h5"/></svg><span>NAMES</span></button>
+        <button id="outlineToggle" title="Show actual destructible terrain outline" aria-pressed="false"><span>OUTLINE</span></button>
       </div>
-      <div class="details">Illustrated terrain from the Godot review build. Still map preview with live collision and weapon gameplay in the desktop game.</div>
+      <div class="details">Tap OUTLINE to see the real destructible edge in green. Gameplay is in the Godot review build.</div>
     </footer>
   </main>
   <script src="viewer.js" defer></script>

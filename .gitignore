@@ -21,3 +21,5 @@ build-reference-v3-viewer.cjs
 
 compose-solid-v4.cjs
 fix-solid-v4-page.cjs
+enhance-solid-v4-viewer.cjs
+polish-v4-collision-viewer.cjs

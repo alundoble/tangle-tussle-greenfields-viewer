@@ -128,10 +128,11 @@
   el('fit').addEventListener('click',fitMap);
   el('findPip').addEventListener('click',()=>state.meta&&selectFighter('Pip'));
   el('labels').addEventListener('click',()=>{state.labels=!state.labels;el('labels').classList.toggle('active',state.labels);render()});
+  el('outlineToggle').addEventListener('click',()=>{const o=el('collisionOverlay');const visible=o.style.display==='block';o.style.display=visible?'none':'block';el('outlineToggle').classList.toggle('active',!visible);el('outlineToggle').setAttribute('aria-pressed',String(!visible));dismissHint()});
   el('closeHelp').addEventListener('click',dismissHint);
   el('share').addEventListener('click',async()=>{
     const url=location.href;
-    if(navigator.share){try{await navigator.share({title:'Tangle Tussle Greenfields V1 map',url});return}catch(e){}}
+    if(navigator.share){try{await navigator.share({title:'Tangle Tussle Memory Match V4 collision review',url});return}catch(e){}}
     if(navigator.clipboard){try{await navigator.clipboard.writeText(url);el('share').title='Link copied';return}catch(e){}}
     window.prompt('Copy the viewer link',url);
   });

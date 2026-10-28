@@ -58,3 +58,6 @@ button{font:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent;touch
  .topbar{min-width:0}
  .topbar .share{flex-shrink:0}
 }
+
+.maplayer img#collisionOverlay{position:absolute;left:0;top:0;width:5760px;height:3240px;display:none;opacity:.94;pointer-events:none}
+@media(max-width:600px){.toolbar{grid-template-columns:.64fr .64fr 1.08fr 1.08fr .92fr 1.16fr}.toolbar button{padding:0 1px}}

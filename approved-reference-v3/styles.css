@@ -46,3 +46,15 @@ button{font:inherit;cursor:pointer;-webkit-tap-highlight-color:transparent;touch
   .toolbar button svg{width:15px;min-width:13px}
   .topbar{overflow:hidden}
 }
+
+@media(max-width:600px){
+ .bottom{padding:8px 5px max(8px,env(safe-area-inset-bottom))}
+ .toolbar{display:grid;grid-template-columns:0.72fr 0.72fr 1.16fr 1.18fr 0.98fr;gap:4px;width:100%;min-width:0}
+ .toolbar button{width:100%;min-width:0;height:42px;padding:0 1px;gap:2px;font-size:8px;flex:none}
+ .toolbar button svg{width:14px;height:14px;min-width:0}
+ .toolbar button span:not(.symbol){font-size:7.5px;letter-spacing:0}
+ .details{font-size:9px}
+ .legend{gap:8px}
+ .topbar{min-width:0}
+ .topbar .share{flex-shrink:0}
+}

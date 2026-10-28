@@ -1,0 +1,163 @@
+{
+	"buriedProps": [
+		{
+			"file": "card-watermelon.png",
+			"size": 180.0,
+			"x": 650.0,
+			"y": 1470.0
+		},
+		{
+			"file": "card-panda.png",
+			"size": 175.0,
+			"x": 1880.0,
+			"y": 1770.0
+		},
+		{
+			"file": "card-rocket.png",
+			"size": 190.0,
+			"x": 2550.0,
+			"y": 1640.0
+		},
+		{
+			"file": "card-strawberry.png",
+			"size": 180.0,
+			"x": 3410.0,
+			"y": 1760.0
+		},
+		{
+			"file": "card-octopus.png",
+			"size": 200.0,
+			"x": 4230.0,
+			"y": 1680.0
+		},
+		{
+			"file": "card-butterfly.png",
+			"size": 190.0,
+			"x": 5030.0,
+			"y": 1750.0
+		}
+	],
+	"chunks": 207,
+	"fighters": [
+		{
+			"name": "Pip",
+			"team": "blue",
+			"x": 360.0,
+			"y": 1156.5
+		},
+		{
+			"name": "Rook",
+			"team": "red",
+			"x": 1140.0,
+			"y": 519.5
+		},
+		{
+			"name": "Bolt",
+			"team": "blue",
+			"x": 1845.0,
+			"y": 722.5
+		},
+		{
+			"name": "Patch",
+			"team": "red",
+			"x": 2625.0,
+			"y": 1211.5
+		},
+		{
+			"name": "Moss",
+			"team": "blue",
+			"x": 3390.0,
+			"y": 1431.5
+		},
+		{
+			"name": "Nova",
+			"team": "red",
+			"x": 4185.0,
+			"y": 447.5
+		},
+		{
+			"name": "Juno",
+			"team": "blue",
+			"x": 4920.0,
+			"y": 809.5
+		},
+		{
+			"name": "Fizz",
+			"team": "red",
+			"x": 5385.0,
+			"y": 747.5
+		}
+	],
+	"generatedUtc": "2026-10-28T10:34:26",
+	"name": "Memory Match",
+	"renderNote": "Native 1x destructible near-LOD atlases exported from the playable Godot scene. Background reinterpreted as a continuous panorama for inspection. No game physics simulated.",
+	"seaLevel": 1972.0,
+	"surfaceProps": [
+		{
+			"file": "card-rocket.png",
+			"h": 177.0,
+			"w": 140.0,
+			"x": 525.0,
+			"y": 1260.0
+		},
+		{
+			"file": "card-back.png",
+			"h": 201.0,
+			"w": 160.0,
+			"x": 840.0,
+			"y": 900.0
+		},
+		{
+			"file": "card-strawberry.png",
+			"h": 201.0,
+			"w": 160.0,
+			"x": 1610.0,
+			"y": 688.0
+		},
+		{
+			"file": "card-octopus.png",
+			"h": 183.0,
+			"w": 145.0,
+			"x": 2170.0,
+			"y": 1000.0
+		},
+		{
+			"file": "card-back.png",
+			"h": 252.0,
+			"w": 200.0,
+			"x": 2815.0,
+			"y": 716.0
+		},
+		{
+			"file": "card-butterfly.png",
+			"h": 188.0,
+			"w": 150.0,
+			"x": 3400.0,
+			"y": 1444.0
+		},
+		{
+			"file": "card-sunflower.png",
+			"h": 210.0,
+			"w": 165.0,
+			"x": 3945.0,
+			"y": 488.0
+		},
+		{
+			"file": "card-panda.png",
+			"h": 218.0,
+			"w": 175.0,
+			"x": 4560.0,
+			"y": 708.0
+		},
+		{
+			"file": "card-watermelon.png",
+			"h": 195.0,
+			"w": 155.0,
+			"x": 5350.0,
+			"y": 772.0
+		}
+	],
+	"version": "Memory Match V1",
+	"worldHeight": 2160,
+	"worldWidth": 5760
+}

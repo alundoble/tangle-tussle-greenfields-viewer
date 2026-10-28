@@ -9,3 +9,6 @@ assets/terrain-actual-1x.png
 assets/caves-mask.png
 assets/godot-overview.png
 *.log
+compose-memory-match.cjs
+memory-match/assets/terrain-actual-1x.png
+memory-match/assets/caves-mask.png

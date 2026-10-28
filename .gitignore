@@ -12,3 +12,8 @@ assets/godot-overview.png
 compose-memory-match.cjs
 memory-match/assets/terrain-actual-1x.png
 memory-match/assets/caves-mask.png
+compose-memory-v2.cjs
+create-memory-v2-viewer.cjs
+fix-memory-v2-composer.cjs
+memory-match-v2/assets/terrain-actual-1x.png
+memory-match-v2/assets/caves-mask.png
